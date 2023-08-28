@@ -1,0 +1,281 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+body{
+    background-color: white;
+
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.bar{
+    background-color: #f1a536;
+
+    height: 12vh;
+    width: 100%;
+
+    display: flex;
+
+    margin-top: 0%;
+    margin-left: 0%;
+}
+
+    #home{
+        margin-left: 5vw;
+        margin-right: 30vw;
+    }
+
+    .nav{
+        text-decoration: none;
+        color: black;
+
+        padding-right: 2vw;
+        margin-top: 4.5vh;
+
+        font-size: 150%;
+
+        white-space: nowrap;
+    }
+
+.hero{
+    background-image: url(/images/hero-image.jpg);
+    background-size: cover;
+
+    width: 100vw;
+    height: 80vh;
+
+    margin-top: .5vh;
+}
+
+    .hero>h1{
+        background-color: white;
+        display: inline-block;
+        padding: .5vw;
+
+        margin-left: 27vw;
+        margin-top: 60vh;
+        
+        font-size: 315%;
+        font-weight: bold;
+    }
+
+.categories{
+    margin-top: 3vw;
+}
+
+    .categories>h1{
+        font-size: 300%;
+        margin-left: 3vw;
+    }
+
+    .categories>p{
+        font-size: 200%;
+        font-weight: lighter;
+        margin-left: 3vw;
+    }
+
+    .imageBox{
+        display: flex;
+
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+        .imgNCap1{
+            font-size: 150%;
+            text-align: center;
+        }
+
+        .images{
+            width: 30vw;
+            height: 25vw;
+            object-fit: cover;
+        }
+
+    #blue{
+        background-color: #dadfea;
+    }
+
+        #blueh1{
+            padding-top: 3vw;
+        }
+
+        .images2{
+            width: 20vw;
+            height: 15vw;
+            object-fit: cover;
+            margin-bottom: 0;
+            display: block;
+        }
+
+        .imgNCap2{
+            font-size: 200%;
+            text-align: center;
+        }
+
+        .imgNCap2>h5{
+            background-color: white;
+            margin-top: 0;
+            padding: .75vw;
+        }
+
+        .images3{
+            width: 30vw;
+            height: 25vw;
+            object-fit: cover;
+
+            border: #dadfea 8px solid;
+        }
+
+#copyright{
+    margin-left: 5vw;
+    font-size: 150%;
+    margin-right: 35vw;
+    margin-top: 2.5vw;
+    white-space: nowrap;
+}
+
+#burger{
+    background-image: url(/images/bengal-burger.jpg);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.intro{
+    background-color: #dadfea;
+
+    height: 25vh;
+    padding-bottom: 2vw;
+}
+
+    .intro>h1{
+        margin-top: 0;
+        padding-top: 2vw;
+        padding-left: 5vw;
+
+        font-weight: bold;
+
+        width: 100vw;
+    }
+
+    .introStuff{
+        display: flex;
+    }
+    
+    .bold{
+        font-weight: bold;
+        
+        margin-right: .5vw;
+        margin-left: 15vw;
+    }
+
+    #starter{
+        margin-left: 5vw;
+    }
+
+    #less{
+        margin-left: 14.5vw;
+    }
+
+.recipeTitle{
+    text-align: center;
+}
+
+    .recipeTitle>h1{
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+
+    #reviews{
+        align-items: center;
+        justify-content: center;
+    }
+
+    #save{
+        align-items: center;
+        justify-content: center;
+    }
+
+    #stars{color: #a63223; padding-right: 1vw;}
+
+    #saveButton{
+        background-color: #a63223;
+        border: #a63223;
+        border-radius: 10px;
+
+        padding-right: 25px;
+        padding-left: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        margin-right: 1vw;
+
+        font-size: 100%;
+        color: white;
+    }
+
+    #saveButton:hover{
+        background-color: #812519;
+    }
+
+    #print{width: 35px;}
+
+    #print:hover{opacity: 50%;}
+
+.quote{
+    background-color: #eef0f4;
+    display: inline-block;
+
+    padding-right: 3vw;
+    padding-left: 3vw;
+
+    margin-top: 3vw;
+
+
+    color: #575656;
+    font-weight: bold;
+    text-align: center;
+    font-size: 150%;
+    font-style: italic;
+}
+
+.recipe{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+    .ingredients>h1{
+        font-weight: bold;
+        font-size: 300%;
+    }
+
+    .ingredients>ul{
+        font-size: 125%;
+    }
+
+    .ingredients>p{
+        font-size: 125%;
+    }
+
+    .ingredients{
+        text-align: left;
+    }
+
+    #spice{font-weight: bold; list-style-type: none;}
+
+    #timing{
+        font-weight: bold;
+        margin-left: 1.25vw;
+        margin-bottom: 0;
+    }
+
+    #eight{margin-top: .5vh;}
+
+    .blank{
+        height: 50vh;
+        text-align: center;
+    }
