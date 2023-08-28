@@ -41,7 +41,7 @@ body{
     }
 
 .hero{
-    background-image: url(/images/hero-image.jpg);
+    background-image: url(../images/hero-image.jpg);
     background-size: cover;
 
     width: 100vw;
@@ -139,7 +139,7 @@ body{
 }
 
 #burger{
-    background-image: url(/images/bengal-burger.jpg);
+    background-image: url(../images/bengal-burger.jpg);
     margin-top: 0;
     margin-bottom: 0;
 }
