@@ -279,3 +279,13 @@ body{
         height: 50vh;
         text-align: center;
     }
+
+    iframe{
+        align-self: center;
+
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+
+        border: 3px solid #dadfea;
+        border-radius: 10px;
+    }
